@@ -1,6 +1,6 @@
 # Proxima Systems — Nuxt 3 Website
 
-Nuxt 3 conversion of the Proxima Systems marketing website.
+The Proxima Systems website.
 
 ## Stack
 
@@ -12,7 +12,7 @@ Nuxt 3 conversion of the Proxima Systems marketing website.
 ## Project Structure
 
 ```
-proxima-nuxt/
+proxima-website/
 ├── app.vue                        # Root app shell
 ├── nuxt.config.ts                 # Nuxt config: fonts, CSS, meta
 ├── pages/
@@ -37,8 +37,8 @@ proxima-nuxt/
 │   └── css/styles.css             # All styles (identical to original)
 └── public/
     └── assets/
-        ├── images/                # Place logo files here (see README inside)
-        └── videos/                # Place MP4 files here (see README inside)
+        ├── images/                # Place logo files here
+        └── videos/                # Place MP4 files here
 ```
 
 ## Quick Start
