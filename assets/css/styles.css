@@ -200,6 +200,7 @@ nav a:hover {
   font-weight: 700 !important;
   font-size: 0.84rem !important;
   transition: background 0.2s !important;
+  cursor: pointer;
 }
 
 .nav-cta:hover {
@@ -434,9 +435,17 @@ h1.hero-title em {
   border-radius: 50%;
 }
 
-.hd-r { background: #ff5f57; }
-.hd-y { background: #febc2e; }
-.hd-g { background: #28c840; }
+.hd-r {
+  background: #ff5f57;
+}
+
+.hd-y {
+  background: #febc2e;
+}
+
+.hd-g {
+  background: #28c840;
+}
 
 .h-card-bdy {
   padding: 18px 22px 22px;
@@ -470,8 +479,13 @@ h1.hero-title em {
   margin-bottom: 14px;
 }
 
-.critical-text { color: #FC6B6B; }
-.warning-text { color: var(--amber); }
+.critical-text {
+  color: #FC6B6B;
+}
+
+.warning-text {
+  color: var(--amber);
+}
 
 .chips {
   display: flex;
@@ -541,14 +555,21 @@ h1.hero-title em {
 }
 
 .float-card-2 {
-  bottom: -10px;
-  right: -16px;
+  bottom: -95px;
+  right: -20px;
   animation-delay: 1.5s;
 }
 
 @keyframes floatY {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
 .fc-dot {
@@ -617,8 +638,13 @@ h1.hero-title em {
 }
 
 @keyframes mq {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .mi {
@@ -630,7 +656,9 @@ h1.hero-title em {
   transition: opacity 0.2s;
 }
 
-.mi:hover { opacity: 1; }
+.mi:hover {
+  opacity: 1;
+}
 
 .mi-dot {
   width: 5px;
@@ -1689,10 +1717,21 @@ footer {
   animation: fi 0.6s ease forwards;
 }
 
-.d1 { animation-delay: 0.05s; }
-.d2 { animation-delay: 0.15s; }
-.d3 { animation-delay: 0.25s; }
-.d4 { animation-delay: 0.38s; }
+.d1 {
+  animation-delay: 0.05s;
+}
+
+.d2 {
+  animation-delay: 0.15s;
+}
+
+.d3 {
+  animation-delay: 0.25s;
+}
+
+.d4 {
+  animation-delay: 0.38s;
+}
 
 @keyframes fi {
   to {
@@ -1705,6 +1744,7 @@ footer {
    RESPONSIVE DESIGN
    ═════════════════════════════════════════════════════════════════ */
 @media (max-width: 1024px) {
+
   .hero-inner,
   .svc-grid,
   .how-grid,
@@ -1745,6 +1785,7 @@ footer {
 }
 
 @media (max-width: 640px) {
+
   .sol-grid,
   .prod-grid,
   .ind-grid,
